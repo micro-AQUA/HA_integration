@@ -53,11 +53,14 @@
           port: !secret microAQUA_1_port
 
 #---------------------------------------------------#
-#           unhash code bolow for add 2'nd          #
+#           microAQUA 2'nd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 2'nd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
 #---------------------------------------------------#
 #     uaqua_2_no_reg_time_by_slider:
 #       friendly_name: Regulacja ON/OFF
@@ -112,14 +115,20 @@
 #         data:
 #           IP: !secret microAQUA_2_IP
 #           port: !secret microAQUA_2_port
+#---------------------------------------------------#
+#        END microAQUA 2'nd DEVICE SECTION          #
+#---------------------------------------------------#
 
 
 #---------------------------------------------------#
-#           unhash code bolow for add 3'rd          #
+#           microAQUA 3'rd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 3'rd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
 #---------------------------------------------------#
     # uaqua_3_no_reg_time_by_slider:
     #   friendly_name: Regulacja ON/OFF
@@ -173,3 +182,6 @@
     #     data:
     #       IP: !secret microAQUA_3_IP
     #       port: !secret microAQUA_3_port
+#---------------------------------------------------#
+#        END microAQUA 3'rd DEVICE SECTION          #
+#---------------------------------------------------#

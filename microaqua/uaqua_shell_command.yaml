@@ -5,21 +5,33 @@ disarm_sound_alarm_cmd: >
 uaqua_1_no_reg_on_cmd: >
   bash -c 'printf "AT+TCPENRM;"{{states('input_number.uaqua_1_set_no_reg_time')|round(0)}}"\r\n" | nc {{IP}} {{port}}'
 #---------------------------------------------------#
-#           unhash code bolow for add 2'nd          #
+#           microAQUA 2'nd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 2'nd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
 #---------------------------------------------------#
 # uaqua_2_no_reg_on_cmd: >
 #   bash -c 'printf "AT+TCPENRM;"{{states('input_number.uaqua_2_set_no_reg_time')|round(0)}}"\r\n" | nc {{IP}} {{port}}'
+#---------------------------------------------------#
+#        END microAQUA 2'nd DEVICE SECTION          #
+#---------------------------------------------------#
 
 #---------------------------------------------------#
-#           unhash code bolow for add 3'rd          #
+#           microAQUA 3'rd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 3'rd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
 #---------------------------------------------------#
 # uaqua_3_no_reg_on_cmd: >
 #   bash -c 'printf "AT+TCPENRM;"{{states('input_number.uaqua_3_set_no_reg_time')|round(0)}}"\r\n" | nc {{IP}} {{port}}'
+#---------------------------------------------------#
+#        END microAQUA 3'rd DEVICE SECTION          #
+#---------------------------------------------------#

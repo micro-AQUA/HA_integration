@@ -38,11 +38,14 @@
   mode: single
 
 #---------------------------------------------------#
-#           unhash code bolow for add 2'nd          #
+#           microAQUA 2'nd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 2'nd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
 #---------------------------------------------------#
 # - id: 'microAQUA_2_not_resp'
 #   alias: Brak komunikacji z microAQUA nr.2
@@ -82,14 +85,20 @@
 #       - sensor.uaqua_2_no_reg_time
 #       - sensor.uaqua_2
 #   mode: single
+#---------------------------------------------------#
+#        END microAQUA 2'nd DEVICE SECTION          #
+#---------------------------------------------------#
  
 #---------------------------------------------------#
-#           unhash code bolow for add 3'rd          #
+#           microAQUA 3'rd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 3'rd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
-#---------------------------------------------------# 
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
+#---------------------------------------------------#
 # - id: microAQUA_3_not_resp
 #   alias: Brak komunikacji z microAQUA nr.3
 #   trigger:
@@ -128,3 +137,6 @@
 #       - sensor.uaqua_3_no_reg_time
 #       - sensor.uaqua_3
 #   mode: single
+#---------------------------------------------------#
+#        END microAQUA 3'rd DEVICE SECTION          #
+#---------------------------------------------------#

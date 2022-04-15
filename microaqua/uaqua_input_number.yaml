@@ -7,11 +7,14 @@ uaqua_1_set_no_reg_time:
   unit_of_measurement: min
 
 #---------------------------------------------------#
-#           unhash code bolow for add 2'nd          #
+#           microAQUA 2'nd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 2'nd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
 #---------------------------------------------------#
 # uaqua_2_set_no_reg_time:
 #   name: Ustaw czas bez regulaji
@@ -20,13 +23,19 @@ uaqua_1_set_no_reg_time:
 #   max: 240
 #   step: 1
 #   unit_of_measurement: min
+#---------------------------------------------------#
+#        END microAQUA 2'nd DEVICE SECTION          #
+#---------------------------------------------------#
   
 #---------------------------------------------------#
-#           unhash code bolow for add 2'nd          #
+#           microAQUA 3'rd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 3'rd    #
 #           microAQUA device to the system          #
 #                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
 #---------------------------------------------------#
 # uaqua_3_set_no_reg_time:
 #   name: Ustaw czas bez regulaji
@@ -35,3 +44,6 @@ uaqua_1_set_no_reg_time:
 #   max: 240
 #   step: 1
 #   unit_of_measurement: min
+#---------------------------------------------------#
+#        END microAQUA 3'rd DEVICE SECTION          #
+#---------------------------------------------------#
