@@ -28,10 +28,30 @@ With this integration fallowing entieties are prowided:
   microAQUA_1_port: 1234
   microAQUA_1_payload: "AT+TCPSCP?\r\n"
   ```
-  4. Edit IP port and paylod to the values specific to your microAQUA device.
+  4. Edit IP, Port, and Payload to the values specific to your microAQUA device.
       
       All parameters can be read from the menu of your device.
-      In the file added to this project you can find correctly filled 
+      
+ # Adding another microAQUA device.   
+ 1. To add second microAQUA device you need to opnen each form the listed files: 
+    - secrets.yaml
+    - microaqua/uaqua_automations.yaml
+    - microaqua/uaqua_input_number.yaml
+    - microaqua/uaqua_sensor.yaml
+    - microaqua/uaqua_shell_command.yaml
+    - microaqua/uaqua_switch.yaml
+ 2. In each file you need to find section: 
+#---------------------------------------------------#
+#           unhash code bolow for add 2'nd          #
+#           microAQUA device to the system          #
+#                                                   #
+#       To do this ,mark configuration code         #
+#       using uour mouse and press 'Ctrl' + '/'     #
+#---------------------------------------------------#
+
+and uncoment yaml code in this section
+    
+ 
   
     
     
