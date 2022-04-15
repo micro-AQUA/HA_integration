@@ -11,8 +11,8 @@ uaqua_1_no_reg_on_cmd: >
 #       To do this ,mark configuration code         #
 #       using uour mouse and press 'Ctrl' + '/'     #
 #---------------------------------------------------#
-uaqua_2_no_reg_on_cmd: >
-  bash -c 'printf "AT+TCPENRM;"{{states('input_number.uaqua_2_set_no_reg_time')|round(0)}}"\r\n" | nc {{IP}} {{port}}'
+# uaqua_2_no_reg_on_cmd: >
+#   bash -c 'printf "AT+TCPENRM;"{{states('input_number.uaqua_2_set_no_reg_time')|round(0)}}"\r\n" | nc {{IP}} {{port}}'
 
 #---------------------------------------------------#
 #           unhash code bolow for add 3'rd          #
