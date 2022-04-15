@@ -1,0 +1,37 @@
+uaqua_1_set_no_reg_time:
+  name: Ustaw czas bez regulaji
+  initial: 0
+  min: 0
+  max: 240
+  step: 1
+  unit_of_measurement: min
+
+#---------------------------------------------------#
+#           unhash code bolow for add 2'nd          #
+#           microAQUA device to the system          #
+#                                                   #
+#       To do this ,mark configuration code         #
+#       using uour mouse and press 'Ctrl' + '/'     #
+#---------------------------------------------------#
+uaqua_2_set_no_reg_time:
+  name: Ustaw czas bez regulaji
+  initial: 0
+  min: 0
+  max: 240
+  step: 1
+  unit_of_measurement: min
+  
+#---------------------------------------------------#
+#           unhash code bolow for add 2'nd          #
+#           microAQUA device to the system          #
+#                                                   #
+#       To do this ,mark configuration code         #
+#       using uour mouse and press 'Ctrl' + '/'     #
+#---------------------------------------------------#
+# uaqua_3_set_no_reg_time:
+#   name: Ustaw czas bez regulaji
+#   initial: 0
+#   min: 0
+#   max: 240
+#   step: 1
+#   unit_of_measurement: min
