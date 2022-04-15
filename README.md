@@ -34,7 +34,7 @@ With this integration fallowing entieties are prowided:
       All parameters can be read from the menu of your device.
       
       
- # Adding another microAQUA device.   
+ # Adding more microAQUA devices.   
  
  1. To add second microAQUA device you need to opnen each form the listed files: 
     - secrets.yaml
