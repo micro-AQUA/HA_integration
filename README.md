@@ -32,7 +32,9 @@ With this integration fallowing entieties are prowided:
       
       All parameters can be read from the menu of your device.
       
+      
  # Adding another microAQUA device.   
+ 
  1. To add second microAQUA device you need to opnen each form the listed files: 
     - secrets.yaml
     - microaqua/uaqua_automations.yaml
@@ -40,14 +42,15 @@ With this integration fallowing entieties are prowided:
     - microaqua/uaqua_sensor.yaml
     - microaqua/uaqua_shell_command.yaml
     - microaqua/uaqua_switch.yaml
+    
  2. In each file you need to find section: 
-#---------------------------------------------------#
-#           unhash code bolow for add 2'nd          #
-#           microAQUA device to the system          #
-#                                                   #
-#       To do this ,mark configuration code         #
-#       using uour mouse and press 'Ctrl' + '/'     #
-#---------------------------------------------------#
+  #---------------------------------------------------#
+  #           unhash code bolow for add 2'nd          #
+  #           microAQUA device to the system          #
+  #                                                   #
+  #       To do this ,mark configuration code         #
+  #       using uour mouse and press 'Ctrl' + '/'     #
+  #---------------------------------------------------#
 
 and uncoment yaml code in this section
     
