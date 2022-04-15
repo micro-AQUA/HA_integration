@@ -1,4 +1,9 @@
 # HA_integration
+This integrations allow to connect microAQUA device to the Home Asystent as a TCP sensor. 
+With this integration fallowing entieties are prowided: 
+
+...tbc
+
 # Custom Component Installation
   1. Copy the microaqua folder to your own hassio /config folder
   
