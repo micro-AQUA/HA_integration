@@ -44,6 +44,7 @@ With this integration fallowing entieties are prowided:
     - microaqua/uaqua_switch.yaml
     
  2. In each file you need to find section: 
+ ```yaml
   #---------------------------------------------------#
   #           unhash code bolow for add 2'nd          #
   #           microAQUA device to the system          #
@@ -51,7 +52,7 @@ With this integration fallowing entieties are prowided:
   #       To do this ,mark configuration code         #
   #       using uour mouse and press 'Ctrl' + '/'     #
   #---------------------------------------------------#
-
+  ```
 and uncoment yaml code in this section
     
  
