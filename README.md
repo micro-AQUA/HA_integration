@@ -1,5 +1,6 @@
 # HA_integration
-This integrations allow to connect microAQUA device to the Home Asystent as a TCP sensor. 
+This integrations allow to connect microAQUA device to the Home Asystent as a TCP sensor.
+ 
 With this integration fallowing entieties are prowided: 
 
 ...tbc
