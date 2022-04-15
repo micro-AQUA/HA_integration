@@ -45,16 +45,29 @@ With this integration fallowing entieties are prowided:
     
  2. In each file you need to find section: 
  ```yaml
-  #---------------------------------------------------#
-  #           unhash code bolow for add 2'nd          #
-  #           microAQUA device to the system          #
-  #                                                   #
-  #       To do this ,mark configuration code         #
-  #       using uour mouse and press 'Ctrl' + '/'     #
-  #---------------------------------------------------#
+#---------------------------------------------------#
+#           microAQUA 2'nd DEVICE SECTION           #
+#---------------------------------------------------#
+#                                                   #
+#     uncomment code in this section to add 2'nd    #
+#           microAQUA device to the system          #
+#                                                   #
+#       To do this ,select configuration code       #
+#       in this section and press 'Ctrl' + '/'      #
+#---------------------------------------------------#
   ```
-and uncoment yaml code in this section
-    
+  and uncomment yaml code iside of this section.
+ 
+  End of the section is marked by:
+ ```yaml
+#---------------------------------------------------#
+#        END microAQUA 2'nd DEVICE SECTION          #
+#---------------------------------------------------#
+  ```
+3. IMPORTANT
+
+   In file uaqua_sensor.yaml there are two such sections for each device. 
+   In this case, for this file its necessary to uncoment code in two places.
  
   
     
